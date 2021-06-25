@@ -84,6 +84,7 @@ CMD ["-Djava.awt.headless=true", "-jar", "/usr/share/jenkins/jenkins.war"]
 - https://hub.docker.com/r/prividen/j-on-corretto
 - https://hub.docker.com/r/prividen/j-on-ubuntu
 
+---
 > Задача 3 
 > - Соберите образ и запустите контейнер в фоновом режиме с публикацией порта
 > - Запустить второй контейнер из образа ubuntu:latest 
