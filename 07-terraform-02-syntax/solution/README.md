@@ -64,7 +64,7 @@ secret_key     ****************ZMjq              env
 
 > - Ссылку на репозиторий с исходной конфигурацией терраформа.
 
-https://github.com/Prividen/devops-netology/tree/master/terraform
+https://github.com/Prividen/devops-netology/tree/d9beb269fd95605bade07a4db68ea24d21c2ccc1/terraform
 
 ```
 mak@test-xu20:~/terraform$ terraform apply -auto-approve
