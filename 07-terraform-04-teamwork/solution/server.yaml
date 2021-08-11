@@ -1,0 +1,20 @@
+repos:
+  - id: github.com/Prividen/.*
+    branch: /.*/
+    apply_requirements: [ approved, mergeable ]
+    workflow: custom
+    allowed_overrides: [ workflow ]
+    allow_custom_workflows: true
+    allowed_workflows: [ custom ]
+
+workflows:
+  custom:
+    plan:
+      steps:
+        - init
+        - plan:
+            extra_args: [ "-lock", "false" ]
+    apply:
+      steps:
+        - apply
+
